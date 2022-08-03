@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet">
+    <title>Colored Byte Demo</title>
+</head>
+<body>
+<div class="card-container">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-content">
+                <img alt="avatar" class="avatar-image" height="50" src="./assets/img/avatar.png" width="50">
+                <div class="card-header-text">
+                    <span class="card-header-title">Erik Dunlop</span>
+                    <span class="card-header-subtitle">San Francisco, California</span>
+                </div>
+            </div>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="card-main-content">
+            <div class="card-icons">
+                <div alt="like" class="card-button">
+                    <svg height="24" id="svg-like-button" style="fill:none" viewBox="0 -1 24 24" width="24"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3_57)">
+                            <path d="M11.1922 5.93947L12.0108 7.06127L12.8152 5.92921C13.9861 4.28118 15.3883 3.55 17.3 3.55C20.3746 3.55 23 6.27619 23 9.8C23 12.955 20.7845 14.9687 18.0873 17.2089C17.8128 17.4087 17.5359 17.6571 17.3041 17.8651C17.2108 17.9488 17.1248 18.0259 17.0492 18.0907L17.04 18.0986L17.031 18.1067L16.031 19.0067L16.031 19.0067L16.0229 19.0141C14.7715 20.1654 13.9306 20.932 13.3415 21.4474C12.7382 21.9753 12.4494 22.1942 12.2855 22.2925C12.2252 22.3287 12.1585 22.3587 12.0968 22.3783C12.0368 22.3974 12.0037 22.3997 12.0003 22.4C12 22.4 11.9999 22.4 12 22.4C12.0001 22.4 12 22.4 11.9997 22.4C11.9963 22.3997 11.9632 22.3974 11.9032 22.3783C11.8415 22.3587 11.7748 22.3287 11.7145 22.2925C11.5541 22.1962 11.2228 21.9348 10.5927 21.3883C10.1545 21.0082 9.60712 20.5221 8.92067 19.9125C8.6561 19.6776 8.37089 19.4243 8.06331 19.1517L8.06334 19.1516L8.05618 19.1454L6.93166 18.1676C6.60691 17.8455 6.2426 17.5339 5.9474 17.2878C3.27309 14.9733 1 12.916 1 9.8C1 6.27233 3.62562 3.55854 6.68649 3.59991L6.68649 3.6H6.7C8.61517 3.6 10.0212 4.3347 11.1922 5.93947Z"
+                                  stroke="black" stroke-width="2"/>
+                        </g>
+                    </svg>
+                </div>
+                <img alt="comment" class="card-button" src="./assets/img/comment-icon.svg">
+                <img alt="share" class="card-button" src="./assets/img/share-icon.svg">
+            </div>
+            <div class="comments-section">
+                <div class="comment-wrapper">
+                    <span class="user-label">Lucas Credie</span>
+                    <span class="user-comment">
+                        dolor sit amet, consectetur adipiscing elit. Mi enim ut eu cras ultrices eget et tristique
+                        proin. Mi
+                        enim ut eu cras ultrices eget et tristique proin.
+                    </span>
+                </div>
+            </div>
+            <div class="comment-input-container">
+                <input class="comment-input" type="text">
+                <button class="post-button">Post</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script defer src="scripts.js"></script>
+</body>
+</html>
